@@ -1,5 +1,6 @@
 {
   "name": "intro_atlante",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -8,5 +9,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.148.0"
+  }
 }
