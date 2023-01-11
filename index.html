@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="global.css">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="global.css" />
     <script src="./main.js" type="module" defer></script>
     <title>intro Atlante</title>
-</head>
-<body>
-<video id="videoContainer" autoplay="autoplay" controls>
-    <source id="video" src="./assets/introSite.mp4">
-</video>
-<div id="buttonContainer">
-    <div class="roundVideo">
-        <a href="./roundVideo.html" style="color: aliceblue;">Round Video</a>
+  </head>
+  <body>
+    <video id="videoContainer" autoplay="autoplay" loop muted>
+      <source id="video" src="./assets/introSite.mp4" />
+    </video>
+    <div id="buttonContainer">
+      <a class="roundVideo" href="./roundVideo.html">
+        Voir l'animation suivante
+    </a>
+      <img
+        id="buttonPlay"
+        src="./assets/sound/pngfind.com-mute-button-png-3837258.png"
+        alt="icon"
+      />
     </div>
-    <button>
-        <img id="buttonPlay" src="./assets/pictures/skip-icon1.jpg" alt="icon">
-    </button>
-</div>
-</body>
+  </body>
 </html>
